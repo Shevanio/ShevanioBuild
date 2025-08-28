@@ -7,40 +7,40 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl font-semibold text-white">
-                ⚡ ShipFree
+                ⚡ Shevanio
               </span>
             </div>
-            <p className="text-sm text-zinc-400">Built for makers, by makers</p>
+            <p className="text-sm text-zinc-400">Systems Administrator & Cybersecurity Professional</p>
             <p className="text-sm text-zinc-500">
               Copyright © 2025 - All rights reserved
             </p>
             <div className="inline-flex items-center gap-2 rounded-md border border-zinc-500 bg-zinc-800/50 px-4 py-2 text-xs text-zinc-400">
-              Built with ⚡ ShipFree
+              Based in Barcelona, Spain
             </div>
           </div>
 
           {/* Links Column */}
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-400">
-              🚀 Links
+              🚀 Social
             </h3>
             <ul className="space-y-3 text-sm">
               <li>
                 <a
-                  href="#wall-of-love"
+                  href="#about"
                   className="text-zinc-400 hover:text-white"
                 >
-                  Wall of love
+                  About
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="text-zinc-400 hover:text-white">
-                  Pricing
+                <a href="#projects" className="text-zinc-400 hover:text-white">
+                  Projects
                 </a>
               </li>
               <li>
                 <a
-                  href="https://x.com/idee8agency"
+                  href="https://twitter.com/Shevanio1950"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
@@ -49,7 +49,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/idee8/shipfree"
+                  href="https://github.com/Shevanio"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
@@ -58,11 +58,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://shipfree.idee8.agency/docs"
+                  href="https://linkedin.com/in/david-luna-camuñez"
                   target="_blank"
                   className="text-zinc-400 hover:text-white"
                 >
-                  Documentation
+                  LinkedIn
                 </a>
               </li>
             </ul>
@@ -71,35 +71,23 @@ export default function Footer() {
           {/* Legal Column */}
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-400">
-              📜 Legal
+              📜 Skills
             </h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a
-                  href="/tos"
-                  target="_blank"
-                  className="text-zinc-400 hover:text-white"
-                >
-                  Terms of Servise
-                </a>
+                <span className="text-zinc-400">
+                  TypeScript & JavaScript
+                </span>
               </li>
               <li>
-                <a
-                  href="/privacy"
-                  target="_blank"
-                  className="text-zinc-400 hover:text-white"
-                >
-                  Privacy Policy
-                </a>
+                <span className="text-zinc-400">
+                  Python & Bash
+                </span>
               </li>
               <li>
-                <a
-                  href="/licenses"
-                  target="_blank"
-                  className="text-zinc-400 hover:text-white"
-                >
-                  Licenses
-                </a>
+                <span className="text-zinc-400">
+                  React & Node.js
+                </span>
               </li>
             </ul>
           </div>
@@ -107,71 +95,51 @@ export default function Footer() {
           {/* By the Creator Column */}
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-zinc-400">
-              🌎 By the Creator of ShipFree
+              🌎 Experience
             </h3>
             <ul className="space-y-3 text-sm">
-              {/* {["idee8.agency", "React AI", "Code Mentor"].map((item) => ( */}
               <li>
-                <a
-                  href="https://idee8.agency"
-                  target="_blank"
-                  className="text-zinc-400 hover:text-white"
-                >
-                  Idee8
-                </a>
+                <span className="text-zinc-400">
+                  Abast (2022-Present)
+                </span>
               </li>
               <li>
-                <a
-                  href="https://codementor.idee8.agency"
-                  className="text-zinc-400 hover:text-white"
-                  target="_blank"
-                >
-                  Code Mentor
-                </a>
+                <span className="text-zinc-400">
+                  Logicalis (2020-2021)
+                </span>
               </li>
               <li>
-                <a
-                  href="https://reactai.idee8.agency"
-                  className="text-zinc-400 hover:text-white"
-                  target="_blank"
-                >
-                  React AI
-                </a>
+                <span className="text-zinc-400">
+                  Eurona (2017-2020)
+                </span>
               </li>
             </ul>
 
             {/* Newsletter Section */}
             <div className="mt-6">
               <h4 className="mb-3 text-sm font-semibold text-zinc-400">
-                📩 Newsletter for Makers
+                📩 Contact Me
               </h4>
               <p className="mb-4 text-sm text-zinc-500">
-                Get startup tips & resources every week!
+                Get in touch for collaboration or opportunities!
               </p>
-              <form className="flex gap-2">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="flex-1 rounded-lg bg-zinc-800/50 px-3 py-2 text-sm text-white placeholder-zinc-500 outline-none ring-zinc-700 transition-shadow focus:ring-2"
-                />
-                <button
-                  type="submit"
-                  className="rounded-lg bg-white px-4 py-2 text-sm font-medium text-black hover:bg-zinc-200"
-                >
-                  Subscribe
-                </button>
-              </form>
+              <a
+                href="mailto:shevanio1950@gmail.com"
+                className="inline-block rounded-lg bg-white px-4 py-2 text-sm font-medium text-black hover:bg-zinc-200 transition-colors"
+              >
+                Send Email
+              </a>
             </div>
           </div>
         </div>
 
         <div className="mt-12 border-t border-zinc-800 pt-8 text-center text-sm text-zinc-500">
-          © 2025 ShipFree. All Rights Reserved. Cooked for you by{" "}
+          © 2025 Shevanio. All Rights Reserved. Portfolio by{" "}
           <a
-            href="https://idee8.agency"
+            href="mailto:shevanio1950@gmail.com"
             className="text-zinc-400 hover:text-white"
           >
-            idee8.agency
+            David Luna Camuñez
           </a>
           .
         </div>

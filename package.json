@@ -1,5 +1,5 @@
 {
-  "name": "shipfree",
+  "name": "shevanio-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -42,9 +42,9 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/typography": "^0.5.16",
-    "@types/node": "^20",
+    "@types/node": "^20.17.16",
     "@types/pg": "^8.11.11",
-    "@types/react": "^19",
+    "@types/react": "^19.0.8",
     "@types/react-dom": "^19",
     "drizzle-kit": "^0.30.4",
     "eslint": "^9",
@@ -53,7 +53,7 @@
     "prettier": "^3.4.2",
     "tailwindcss": "^3.4.1",
     "tsx": "^4.19.3",
-    "typescript": "^5"
+    "typescript": "^5.7.3"
   },
   "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a"
 }

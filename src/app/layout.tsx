@@ -10,20 +10,20 @@ const bricolageGrotesque = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "ShipFree",
+  title: "Shevanio",
   description:
-    "Open Source Alternative to ShipFast - Launch your startup in days Not in weeks",
+    "David Luna Camuñez - Monitoring Technician & Systems Administrator specializing in cybersecurity, ML, and automation",
   keywords: [
-    "saas",
-    "boilerplate",
-    "open source",
-    "free",
-    "open source shipfast",
-    "shipfree",
-    "idee8",
-    "made by idee8",
-    "free boilerplate",
-    "github",
+    "David Luna Camuñez",
+    "Shevanio",
+    "cybersecurity",
+    "systems administrator",
+    "monitoring technician",
+    "machine learning",
+    "automation",
+    "python",
+    "typescript",
+    "portfolio",
   ],
 };
 

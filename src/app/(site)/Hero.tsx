@@ -18,26 +18,25 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-[#CFCFCF] leading-tight">
-            Ship your startup
+            David Luna Camuñez
             <br />
-            in days,{" "}
-            <span className="bg-[#CFCFCF] text-[#2E1A05] px-2">not weeks</span>
+            <span className="bg-[#CFCFCF] text-[#2E1A05] px-2">Systems Administrator</span>
           </h1>
 
           <p className="text-base text-[#CFCFCF] mb-8 max-w-2xl mx-auto lg:mx-0">
-            Tired of wasting time on setup instead of build? ShipFree is the
-            fastest way to launch your SaaS, AI tool, or web app—for free. No
-            setup headaches, no paywalls—just build and ship!
+            Passionate about cybersecurity, Machine Learning, and AI. 
+            Monitoring Technician & Systems Administrator focused on automating 
+            processes with bash and Python. Based in Barcelona, Spain.
           </p>
 
           <Link
-            href="https://github.com/idee8/shipfree"
+            href="https://github.com/Shevanio"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex mt-5 items-center justify-center gap-2 bg-[#FFBE1A] hover:bg-yellow-500 text-black px-8 sm:px-20 py-3 rounded-xl font-medium text-lg mb-6 duration-300 transition-colors"
           >
             <Zap fill="#000000" className="w-5 h-5" />
-            Get ShipFree
+            View GitHub
           </Link>
 
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
@@ -71,8 +70,8 @@ const HeroSection = () => {
                   ))}
                 </div>
                 <p className="text-zinc-100 mt-1 text-sm sm:text-base">
-                  <span className="font-medium">6301</span>
-                  <span className="text-zinc-400 ml-2">makers ship faster</span>
+                  <span className="font-medium">26 years old</span>
+                  <span className="text-zinc-400 ml-2">from Barcelona</span>
                 </p>
               </div>
             </div>
